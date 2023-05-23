@@ -26,7 +26,7 @@ let libAVFrameworks = frameworks.filter({ $0.key != "ffmpegkit" })
 
 let package = Package(
     name: "ffmpeg-kit-spm",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v14)],
     products: [
             .library(
                 name: "FFmpeg-Kit",
